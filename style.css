@@ -1,9 +1,5 @@
 body{
     background-color: #0F0A0A;
-    display: flow-root;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     text-align: center;
 }
 
@@ -13,25 +9,6 @@ header{
     top: 0;
     z-index: 999;
     text-align: center;
-}
-main{
-    margin: 5px 5px;
-    text-align: center;
-}
-
-div{
-    height: 50px;
-    overflow: auto;
-    color: beige;
-}
-
-figure{
-    text-align: center;
-    align-items: center
-}
-
-figcaption{
-    color: beige;
 }
 
 p{
@@ -45,17 +22,24 @@ a{
     margin: 5px 5px;
 }
 
-
-.story_link{
-    color: beige;
-    text-decoration: underline;
+.gallery{
+    display: inline-block;
+    border: 0px solid beige;
+    margin: 10px;
 }
 
-.HButton{
-    background-color: #0F0A0A;
+.gallery img{
+    width: 200px;    
+}
+
+.gallery .description{
+    padding: 10px;
+    text-align: center;
     color: beige;
-    font-size: 20px;
-    margin: 5px 5px;
+}
+
+.gallery:hover{
+    border: 1px solid beige;
 }
 
 /*  cocoa brown #D96C06
